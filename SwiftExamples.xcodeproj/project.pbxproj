@@ -10,6 +10,7 @@
 		D495551C2CDBC4210014053E /* SwiftUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49555432CDBC5C00014053E /* InitialViewControllerUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InitialViewControllerUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49556132CDBD5E20014053E /* LocalizationUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D495568C2CDBD9BD0014053E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -91,6 +92,7 @@
 		D4409F0C2CC78A3E00F91778 = {
 			isa = PBXGroup;
 			children = (
+				D495568C2CDBD9BD0014053E /* README.md */,
 				D49556142CDBD5E20014053E /* LocalizationUIKit */,
 				D49555592CDBD3D80014053E /* Products */,
 				D495551D2CDBC4210014053E /* SwiftUIKit */,
