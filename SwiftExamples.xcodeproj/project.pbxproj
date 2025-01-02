@@ -6,11 +6,54 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D4D626742CEF2C2A00C1D1F7 /* CallDirTestExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D4D6266D2CEF2C2A00C1D1F7 /* CallDirTestExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4D626862CEF3A1600C1D1F7 /* CallDirTestNotificationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D4D6267F2CEF3A1600C1D1F7 /* CallDirTestNotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D626722CEF2C2A00C1D1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4409F0D2CC78A3E00F91778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D6266C2CEF2C2A00C1D1F7;
+			remoteInfo = CallDirTestExtension;
+		};
+		D4D626842CEF3A1600C1D1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4409F0D2CC78A3E00F91778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D6267E2CEF3A1600C1D1F7;
+			remoteInfo = CallDirTestNotificationExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4D626792CEF2C2A00C1D1F7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D4D626742CEF2C2A00C1D1F7 /* CallDirTestExtension.appex in Embed Foundation Extensions */,
+				D4D626862CEF3A1600C1D1F7 /* CallDirTestNotificationExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D466B5542CEF9D0A00935639 /* SwiftUIButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D495551C2CDBC4210014053E /* SwiftUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49555432CDBC5C00014053E /* InitialViewControllerUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InitialViewControllerUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49556132CDBD5E20014053E /* LocalizationUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D495568C2CDBD9BD0014053E /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = SOURCE_ROOT; };
+		D49556C62CDD083F0014053E /* UITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AE8C472CECA81200B9F7B1 /* Websockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Websockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D626542CEF2C0F00C1D1F7 /* CallDirTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallDirTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D6266D2CEF2C2A00C1D1F7 /* CallDirTestExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallDirTestExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D6267F2CEF3A1600C1D1F7 /* CallDirTestNotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallDirTestNotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -35,9 +78,49 @@
 			);
 			target = D49556122CDBD5E20014053E /* LocalizationUIKit */;
 		};
+		D49556D72CDD08430014053E /* Exceptions for "UITabBarController" folder in "UITabBarController" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D49556C52CDD083F0014053E /* UITabBarController */;
+		};
+		D4AE8C5A2CECA81300B9F7B1 /* Exceptions for "Websockets" folder in "Websockets" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D4AE8C462CECA81200B9F7B1 /* Websockets */;
+		};
+		D4D626672CEF2C1100C1D1F7 /* Exceptions for "CallDirTest" folder in "CallDirTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D4D626532CEF2C0F00C1D1F7 /* CallDirTest */;
+		};
+		D4D626782CEF2C2A00C1D1F7 /* Exceptions for "CallDirTestExtension" folder in "CallDirTestExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D4D6266C2CEF2C2A00C1D1F7 /* CallDirTestExtension */;
+		};
+		D4D6268A2CEF3A1600C1D1F7 /* Exceptions for "CallDirTestNotificationExtension" folder in "CallDirTestNotificationExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D4D6267E2CEF3A1600C1D1F7 /* CallDirTestNotificationExtension */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		D466B5552CEF9D0A00935639 /* SwiftUIButtons */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIButtons;
+			sourceTree = "<group>";
+		};
 		D495551D2CDBC4210014053E /* SwiftUIKit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -62,9 +145,56 @@
 			path = LocalizationUIKit;
 			sourceTree = "<group>";
 		};
+		D49556C72CDD083F0014053E /* UITabBarController */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D49556D72CDD08430014053E /* Exceptions for "UITabBarController" folder in "UITabBarController" target */,
+			);
+			path = UITabBarController;
+			sourceTree = "<group>";
+		};
+		D4AE8C482CECA81200B9F7B1 /* Websockets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D4AE8C5A2CECA81300B9F7B1 /* Exceptions for "Websockets" folder in "Websockets" target */,
+			);
+			path = Websockets;
+			sourceTree = "<group>";
+		};
+		D4D626552CEF2C0F00C1D1F7 /* CallDirTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D4D626672CEF2C1100C1D1F7 /* Exceptions for "CallDirTest" folder in "CallDirTest" target */,
+			);
+			path = CallDirTest;
+			sourceTree = "<group>";
+		};
+		D4D6266E2CEF2C2A00C1D1F7 /* CallDirTestExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D4D626782CEF2C2A00C1D1F7 /* Exceptions for "CallDirTestExtension" folder in "CallDirTestExtension" target */,
+			);
+			path = CallDirTestExtension;
+			sourceTree = "<group>";
+		};
+		D4D626802CEF3A1600C1D1F7 /* CallDirTestNotificationExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D4D6268A2CEF3A1600C1D1F7 /* Exceptions for "CallDirTestNotificationExtension" folder in "CallDirTestNotificationExtension" target */,
+			);
+			path = CallDirTestNotificationExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D466B5512CEF9D0A00935639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D49555192CDBC4210014053E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,6 +216,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D49556C32CDD083F0014053E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE8C442CECA81200B9F7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D626512CEF2C0F00C1D1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6266A2CEF2C2A00C1D1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6267C2CEF3A1600C1D1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +259,12 @@
 			children = (
 				D495568C2CDBD9BD0014053E /* README.MD */,
 				D49556142CDBD5E20014053E /* LocalizationUIKit */,
+				D49556C72CDD083F0014053E /* UITabBarController */,
+				D4AE8C482CECA81200B9F7B1 /* Websockets */,
+				D4D626552CEF2C0F00C1D1F7 /* CallDirTest */,
+				D4D6266E2CEF2C2A00C1D1F7 /* CallDirTestExtension */,
+				D4D626802CEF3A1600C1D1F7 /* CallDirTestNotificationExtension */,
+				D466B5552CEF9D0A00935639 /* SwiftUIButtons */,
 				D49555592CDBD3D80014053E /* Products */,
 				D495551D2CDBC4210014053E /* SwiftUIKit */,
 				D49555442CDBC5C00014053E /* InitialViewControllerUIKit */,
@@ -106,6 +277,12 @@
 				D495551C2CDBC4210014053E /* SwiftUIKit.app */,
 				D49555432CDBC5C00014053E /* InitialViewControllerUIKit.app */,
 				D49556132CDBD5E20014053E /* LocalizationUIKit.app */,
+				D49556C62CDD083F0014053E /* UITabBarController.app */,
+				D4AE8C472CECA81200B9F7B1 /* Websockets.app */,
+				D4D626542CEF2C0F00C1D1F7 /* CallDirTest.app */,
+				D4D6266D2CEF2C2A00C1D1F7 /* CallDirTestExtension.appex */,
+				D4D6267F2CEF3A1600C1D1F7 /* CallDirTestNotificationExtension.appex */,
+				D466B5542CEF9D0A00935639 /* SwiftUIButtons.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +290,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D466B5532CEF9D0A00935639 /* SwiftUIButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D466B5612CEF9D0D00935639 /* Build configuration list for PBXNativeTarget "SwiftUIButtons" */;
+			buildPhases = (
+				D466B5502CEF9D0A00935639 /* Sources */,
+				D466B5512CEF9D0A00935639 /* Frameworks */,
+				D466B5522CEF9D0A00935639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D466B5552CEF9D0A00935639 /* SwiftUIButtons */,
+			);
+			name = SwiftUIButtons;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIButtons;
+			productReference = D466B5542CEF9D0A00935639 /* SwiftUIButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D495551B2CDBC4210014053E /* SwiftUIKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D49555302CDBC4230014053E /* Build configuration list for PBXNativeTarget "SwiftUIKit" */;
@@ -179,6 +378,119 @@
 			productReference = D49556132CDBD5E20014053E /* LocalizationUIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D49556C52CDD083F0014053E /* UITabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49556D82CDD08430014053E /* Build configuration list for PBXNativeTarget "UITabBarController" */;
+			buildPhases = (
+				D49556C22CDD083F0014053E /* Sources */,
+				D49556C32CDD083F0014053E /* Frameworks */,
+				D49556C42CDD083F0014053E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D49556C72CDD083F0014053E /* UITabBarController */,
+			);
+			name = UITabBarController;
+			packageProductDependencies = (
+			);
+			productName = UITabBarController;
+			productReference = D49556C62CDD083F0014053E /* UITabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4AE8C462CECA81200B9F7B1 /* Websockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AE8C5B2CECA81300B9F7B1 /* Build configuration list for PBXNativeTarget "Websockets" */;
+			buildPhases = (
+				D4AE8C432CECA81200B9F7B1 /* Sources */,
+				D4AE8C442CECA81200B9F7B1 /* Frameworks */,
+				D4AE8C452CECA81200B9F7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D4AE8C482CECA81200B9F7B1 /* Websockets */,
+			);
+			name = Websockets;
+			packageProductDependencies = (
+			);
+			productName = Websockets;
+			productReference = D4AE8C472CECA81200B9F7B1 /* Websockets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D626532CEF2C0F00C1D1F7 /* CallDirTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D626682CEF2C1100C1D1F7 /* Build configuration list for PBXNativeTarget "CallDirTest" */;
+			buildPhases = (
+				D4D626502CEF2C0F00C1D1F7 /* Sources */,
+				D4D626512CEF2C0F00C1D1F7 /* Frameworks */,
+				D4D626522CEF2C0F00C1D1F7 /* Resources */,
+				D4D626792CEF2C2A00C1D1F7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D626732CEF2C2A00C1D1F7 /* PBXTargetDependency */,
+				D4D626852CEF3A1600C1D1F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D4D626552CEF2C0F00C1D1F7 /* CallDirTest */,
+			);
+			name = CallDirTest;
+			packageProductDependencies = (
+			);
+			productName = CallDirTest;
+			productReference = D4D626542CEF2C0F00C1D1F7 /* CallDirTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D6266C2CEF2C2A00C1D1F7 /* CallDirTestExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D626752CEF2C2A00C1D1F7 /* Build configuration list for PBXNativeTarget "CallDirTestExtension" */;
+			buildPhases = (
+				D4D626692CEF2C2A00C1D1F7 /* Sources */,
+				D4D6266A2CEF2C2A00C1D1F7 /* Frameworks */,
+				D4D6266B2CEF2C2A00C1D1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D4D6266E2CEF2C2A00C1D1F7 /* CallDirTestExtension */,
+			);
+			name = CallDirTestExtension;
+			packageProductDependencies = (
+			);
+			productName = CallDirTestExtension;
+			productReference = D4D6266D2CEF2C2A00C1D1F7 /* CallDirTestExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D4D6267E2CEF3A1600C1D1F7 /* CallDirTestNotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D626872CEF3A1600C1D1F7 /* Build configuration list for PBXNativeTarget "CallDirTestNotificationExtension" */;
+			buildPhases = (
+				D4D6267B2CEF3A1600C1D1F7 /* Sources */,
+				D4D6267C2CEF3A1600C1D1F7 /* Frameworks */,
+				D4D6267D2CEF3A1600C1D1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D4D626802CEF3A1600C1D1F7 /* CallDirTestNotificationExtension */,
+			);
+			name = CallDirTestNotificationExtension;
+			packageProductDependencies = (
+			);
+			productName = CallDirTestNotificationExtension;
+			productReference = D4D6267F2CEF3A1600C1D1F7 /* CallDirTestNotificationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +501,9 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					D466B5532CEF9D0A00935639 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					D495551B2CDBC4210014053E = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -196,6 +511,21 @@
 						CreatedOnToolsVersion = 16.0;
 					};
 					D49556122CDBD5E20014053E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D49556C52CDD083F0014053E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D4AE8C462CECA81200B9F7B1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D4D626532CEF2C0F00C1D1F7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D4D6266C2CEF2C2A00C1D1F7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D4D6267E2CEF3A1600C1D1F7 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -219,11 +549,24 @@
 				D495551B2CDBC4210014053E /* SwiftUIKit */,
 				D49555422CDBC5C00014053E /* InitialViewControllerUIKit */,
 				D49556122CDBD5E20014053E /* LocalizationUIKit */,
+				D49556C52CDD083F0014053E /* UITabBarController */,
+				D4AE8C462CECA81200B9F7B1 /* Websockets */,
+				D4D626532CEF2C0F00C1D1F7 /* CallDirTest */,
+				D4D6266C2CEF2C2A00C1D1F7 /* CallDirTestExtension */,
+				D4D6267E2CEF3A1600C1D1F7 /* CallDirTestNotificationExtension */,
+				D466B5532CEF9D0A00935639 /* SwiftUIButtons */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D466B5522CEF9D0A00935639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D495551A2CDBC4210014053E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,9 +588,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D49556C42CDD083F0014053E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE8C452CECA81200B9F7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D626522CEF2C0F00C1D1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6266B2CEF2C2A00C1D1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6267D2CEF3A1600C1D1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D466B5502CEF9D0A00935639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D49555182CDBC4210014053E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,7 +654,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D49556C22CDD083F0014053E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE8C432CECA81200B9F7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D626502CEF2C0F00C1D1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D626692CEF2C2A00C1D1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6267B2CEF3A1600C1D1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D626732CEF2C2A00C1D1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D6266C2CEF2C2A00C1D1F7 /* CallDirTestExtension */;
+			targetProxy = D4D626722CEF2C2A00C1D1F7 /* PBXContainerItemProxy */;
+		};
+		D4D626852CEF3A1600C1D1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D6267E2CEF3A1600C1D1F7 /* CallDirTestNotificationExtension */;
+			targetProxy = D4D626842CEF3A1600C1D1F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D4409F222CC78A4100F91778 /* Debug */ = {
@@ -386,6 +819,69 @@
 			};
 			name = Release;
 		};
+		D466B55F2CEF9D0D00935639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIButtons/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A4CVPX5J3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.SwiftUIButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D466B5602CEF9D0D00935639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIButtons/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A4CVPX5J3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.SwiftUIButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D495552D2CDBC4230014053E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -399,7 +895,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,7 +927,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -573,6 +1069,313 @@
 			};
 			name = Release;
 		};
+		D49556D92CDD08430014053E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UITabBarController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.UITabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D49556DA2CDD08430014053E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UITabBarController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.UITabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4AE8C582CECA81300B9F7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Websockets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.Websockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4AE8C592CECA81300B9F7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Websockets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.Websockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D626652CEF2C1100C1D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A4CVPX5J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallDirTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.Websockets.CallDirTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4D626662CEF2C1100C1D1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A4CVPX5J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallDirTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.Websockets.CallDirTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D626762CEF2C2A00C1D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = CallDirTestExtension/CallDirTestExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6A4CVPX5J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallDirTestExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallDirTestExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.Websockets.CallDirTest.CallDirTestExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D4D626772CEF2C2A00C1D1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = CallDirTestExtension/CallDirTestExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6A4CVPX5J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallDirTestExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallDirTestExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.Websockets.CallDirTest.CallDirTestExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D4D626882CEF3A1600C1D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A4CVPX5J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallDirTestNotificationExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallDirTestNotificationExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.Websockets.CallDirTest.CallDirTestNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4D626892CEF3A1600C1D1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A4CVPX5J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallDirTestNotificationExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallDirTestNotificationExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeljko.Websockets.CallDirTest.CallDirTestNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +1384,15 @@
 			buildConfigurations = (
 				D4409F222CC78A4100F91778 /* Debug */,
 				D4409F232CC78A4100F91778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D466B5612CEF9D0D00935639 /* Build configuration list for PBXNativeTarget "SwiftUIButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466B55F2CEF9D0D00935639 /* Debug */,
+				D466B5602CEF9D0D00935639 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -608,6 +1420,51 @@
 			buildConfigurations = (
 				D49556262CDBD5E40014053E /* Debug */,
 				D49556272CDBD5E40014053E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49556D82CDD08430014053E /* Build configuration list for PBXNativeTarget "UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49556D92CDD08430014053E /* Debug */,
+				D49556DA2CDD08430014053E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AE8C5B2CECA81300B9F7B1 /* Build configuration list for PBXNativeTarget "Websockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AE8C582CECA81300B9F7B1 /* Debug */,
+				D4AE8C592CECA81300B9F7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D626682CEF2C1100C1D1F7 /* Build configuration list for PBXNativeTarget "CallDirTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D626652CEF2C1100C1D1F7 /* Debug */,
+				D4D626662CEF2C1100C1D1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D626752CEF2C2A00C1D1F7 /* Build configuration list for PBXNativeTarget "CallDirTestExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D626762CEF2C2A00C1D1F7 /* Debug */,
+				D4D626772CEF2C2A00C1D1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D626872CEF3A1600C1D1F7 /* Build configuration list for PBXNativeTarget "CallDirTestNotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D626882CEF3A1600C1D1F7 /* Debug */,
+				D4D626892CEF3A1600C1D1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

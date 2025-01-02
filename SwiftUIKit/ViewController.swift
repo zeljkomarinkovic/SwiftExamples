@@ -122,10 +122,12 @@ struct ViewRepresentable<T: UIView>: UIViewRepresentable {
     func updateUIView(_ uiView: UIViewType, context: Context) { }
 }
 
+@available(iOS 17, *)
 #Preview("UIViewController", traits: .sizeThatFitsLayout) {
     ViewController()
 }
 
+@available(iOS 17, *)
 #Preview("SwiftUI view", traits: .sizeThatFitsLayout) {
     TestView()
 }
@@ -135,7 +137,7 @@ extension UIStackView {
     public func addArrangedSubview<Content: View>(_ swiftUIView: Content, completion: ((_ view: UIView) -> Void)? = nil) {
         let hostingController = UIHostingController(rootView: swiftUIView)
         if let view = hostingController.view {
-            hostingController.sizingOptions = .intrinsicContentSize
+            hostingController.sizingOptions = .preferredContentSize
             
             view.backgroundColor = .systemTeal
             view.frame = self.bounds
